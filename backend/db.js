@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const dburl='mongodb+srv://foodieApp:Physics5@cluster0.euqpbfq.mongodb.net/foodieAppmern?retryWrites=true&w=majority'
+const mongoURI='mongodb+srv://aysayush098:Kunal567@cluster0.krec0s3.mongodb.net/gofoodmern?retryWrites=true&w=majority'
 mongoose.connect(dburl,{useNewUrlParser: true});
 const conn=mongoose.connection;
 conn.on('connected', async function() {
